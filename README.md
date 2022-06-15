@@ -1,4 +1,4 @@
-#  Applicationgateway Azure Script
+#  Applicationgateway Azure Script (for api a& spa .net core)
 
 
 This is a useful powershell script i made to automatically compare DNS A-records from Cloudflare, add rules and re-direct rules to the Azure appgateway if new sites are added

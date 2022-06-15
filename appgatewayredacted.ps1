@@ -123,7 +123,7 @@ else {
 $AppGWListeners = ($AppGw.HttpListeners).name 
 $AppGWRules = ($AppGw.RequestRoutingRules).name 
 
-#Now fetch source of truth comparison (operating from the assumption that only v5 yourcompany infrastructure is using the application gateway, please contact Koen(or whomever is replacing him) or mark if that is not the case, already have code ready for a situation like that in purger script (will detect each domain on iis))
+#Now fetch source of truth comparison (operating from the assumption that only v5 yourcompany infrastructure is using the application gateway, please contact redacted(or whomever is replacing him) or redacted if that is not the case, already have code ready for a situation like that in purger script (will detect each domain on iis))
 #Get yourcompany sites pointing to this machine (assumption: all IIS sites are up to date and DNS is single source of truth)
 
 $cloudflaresites = @()
